@@ -1,7 +1,7 @@
 {
   "name": "youareanidiot",
-  "productName": "youareanidiot - electron",
-  "version": "1.0.0",
+  "productName": "You are an idiot",
+  "version": "1.0.2",
   "description": "Idiot.",
   "main": "src/index.js",
   "scripts": {
