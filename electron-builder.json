@@ -1,0 +1,58 @@
+{
+    "appId": "com.github.thyssenkrupp234.youareanidiot",
+    "productName": "You are an idiot",
+    "copyright": "Lincoln Muller",
+    "directories": {
+        "output": "out",
+        "buildResources": "build-res"
+    },
+    "dmg": {
+        "window": {
+            "width": "700",
+            "height": "700"
+        },
+        "contents": [
+            {
+                "x": 100,
+                "y": 100
+            },
+            {
+                "x": 300,
+                "y": 100,
+                "type": "link",
+                "path": "/Applications"
+            }
+        ]
+    },
+    "pkg": {
+        "allowCurrentUserHome": "true",
+        "allowAnywhere": "true",
+        "welcome": "build-res/welcome.rtf",
+        "conclusion": "build-res/summary.rtf"
+    },
+    "mac": {
+        "target": [
+            "dmg",
+            "pkg"
+        ]
+      },
+      "win": {
+          "target": {
+              "target": "nsis",
+              "arch": [
+                  "ia32",
+                  "x64"
+              ]
+              
+          }
+      },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "nsis": {
+        "oneClick": "false",
+        "perMachine": "false",
+        "allowToChangeInstallationDirectory": "true"
+    }
+}
