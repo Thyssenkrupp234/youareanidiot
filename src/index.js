@@ -10,7 +10,7 @@ const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 1000,
-    height: 760,
+    height: 775,
   });
 
   // and load the index.html of the app.
