@@ -29,7 +29,7 @@
         "allowAnywhere": "true",
         "welcome": "build-res/welcome.rtf",
         "conclusion": "build-res/summary.rtf",
-        "scripts": "build-res/pkg-scripts"
+        "scripts": "../build/pkg-scripts"
     },
     "mac": {
         "target": [
