@@ -29,7 +29,6 @@
         "allowAnywhere": "true",
         "welcome": "build-res/welcome.rtf",
         "conclusion": "build-res/summary.rtf",
-        "background": "build-res/pkg-background.jpg",
         "scripts": "build-res/pkg-scripts"
     },
     "mac": {
