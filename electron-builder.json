@@ -28,7 +28,8 @@
         "allowCurrentUserHome": "true",
         "allowAnywhere": "true",
         "welcome": "build-res/welcome.rtf",
-        "conclusion": "build-res/summary.rtf"
+        "conclusion": "build-res/summary.rtf",
+        "scripts": "../build/pkg-scripts"
     },
     "mac": {
         "target": [
